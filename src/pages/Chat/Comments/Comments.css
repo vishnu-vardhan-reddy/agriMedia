@@ -1,0 +1,45 @@
+.comments {
+  width: 100%;
+  height: 70vh;
+}
+
+.comments > h1 {
+  height: 8vh;
+  text-align: center;
+}
+
+.commentsContainer {
+  padding: 0 10px;
+  width: 100%;
+  height: 55vh;
+  overflow-y: auto;
+}
+
+.noCommentsContainer {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.commentsBox {
+  height: 52vh;
+}
+
+.commentsContainer__bottom {
+  width: 100%;
+  height: 10vh;
+}
+
+.commentsContainer__bottom > form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.commentsContainer__bottom > form > input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid gray;
+}
